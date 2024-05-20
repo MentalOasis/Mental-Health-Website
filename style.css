@@ -1,1 +1,17 @@
 /* Opción Propuesta uno Diseño Plano */
+body {
+    margin: 0; 
+}
+
+.btn.inicio { 
+    background-color: #00D6E0;
+    color: black
+    
+}
+
+.btn.inicio:hover {
+    background-color: #4198f4;
+    color: black
+    
+
+}
