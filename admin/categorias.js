@@ -27,8 +27,9 @@ function alerta4(){
 
 
 function hacerClick() {
-    var temaNuevo = prompt("Ingresa el tema que quiere modificar: ");
-    console.log("El tema modificado: " + temaNuevo)
+    let temaNuevo = prompt("Ingrese el tema que quiere modificar: ");
+    console.log("El tema modificado es: " + temaNuevo);
+   
 };
 
 
