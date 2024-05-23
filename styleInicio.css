@@ -73,3 +73,9 @@ body {
 .zoom:hover {
     transform: scale(1.2); /* Escala la imagen a 1.2 veces su tamaño */
 }
+
+.custom-size {
+    width: 431px;
+    height: 365px;
+  }
+  
