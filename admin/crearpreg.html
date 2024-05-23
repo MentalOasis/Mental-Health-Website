@@ -31,11 +31,11 @@
             <div class="row">
                 <!-- Columna izquierda para los botones -->
                 <div class="col-3">
-                    <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Inicio</a>
-                    <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Configuración</a>
-                    <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Editar preguntas</a>
-                    <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Crear preguntas</a>
-                    <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Categorías</a>
+                    <a id="AInicio" onclick=alerta() class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="#" role="button">Inicio</a>
+                    <a id="AConfiguración" onclick=alerta1() class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="#" role="button">Configuración</a>
+                    <a id="AEditarpregunta" onclick=alerta2() class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="#" role="button">Editar preguntas</a>
+                    <a id="ACrearpregunta" onclick=alerta3() class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="#" role="button">Crear preguntas</a>
+                    <a id="ACategorias" onclick=alerta4() class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="#" role="button">Categorías</a>
                 </div>
                 <!-- Columna derecha para el texto y otros botones -->
                 <div class="col">
@@ -46,39 +46,39 @@
                         <!-- Botones a la derecha -->
                         <div class="row">
                             <div class="col">
-                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="..." role="button">Todas</a>
+                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="#" role="button">Todas</a>
                             </div>
                             <div class="col">
-                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="..." role="button">Salud Mental</a>
+                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="#" role="button">Salud Mental</a>
                             </div>
                             <div class="col">
-                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="..." role="button">Hábitos Saludables</a>
+                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="#" role="button">Hábitos Saludables</a>
                             </div>
                             <div class="col">
-                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="..." role="button">Higiene del Sueño</a>
+                                <a class="btn btn-outline-secondary m-2 custom-btn-width text-center" href="#" role="button">Higiene del Sueño</a>
                             </div>
 
                             <p class="text-right fs-5 fw-semibold mt-5 mb-3">Nueva Pregunta</p>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Escribe la pregunta</label>
-                                <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                <textarea id="exampleFormControlTextarea1" class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
                               </div>
                               <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Escribe una respuesta correcta</label>
-                                <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                <label for="exampleFormControlTextarea2" class="form-label">Escribe una respuesta correcta</label>
+                                <textarea id="exampleFormControlTextarea2" class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
                               </div>
                               <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Escribe una respuesta incorrecta</label>
-                                <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                <label for="exampleFormControlTextarea3" class="form-label">Escribe una respuesta incorrecta</label>
+                                <textarea id="exampleFormControlTextarea3" class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
                               </div>
                               <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Escribe una respuesta incorrecta</label>
-                                <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                <label for="exampleFormControlTextarea4" class="form-label">Escribe una respuesta incorrecta</label>
+                                <textarea id="exampleFormControlTextarea4" class="form-control w-75" id="exampleFormControlTextarea1" rows="8"></textarea>
                               </div>
 
                               <div class="col">
                                 <div class="d-flex flex-column align-items-end mb-3">
-                                    <a class="btn btn-outline-secondary m-5 custom-btn-width text-center" href="..." role="button">Añadir pregunta</a>
+                                    <a onclick=imprimirValores() class="btn btn-outline-secondary m-5 custom-btn-width text-center" href="#" role="button">Añadir pregunta</a>
                                 </div>
                             </div>
                     </div>

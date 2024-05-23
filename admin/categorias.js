@@ -32,6 +32,11 @@ function hacerClick() {
    
 };
 
+function hacerClick2() {
+    let temaAgregado = prompt("Ingrese el tema que quiere agregar: ");
+    console.log("El tema agregado es: " + temaAgregado);
+   
+};
 
 
 
