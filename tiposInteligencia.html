@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="styletiposdeinteligencia.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
+
     <style>
         .page-container {
-            margin-top: 100px;
+            margin-top: 60px;
             margin-left: 20px;
             margin-right: 20px;
             font-family: manrope;
@@ -22,9 +25,109 @@
         .text-right-margin {
             margin-right: 10px;
         }
+
+         /* Estilo para el botón de Invitado */
+         .btn-invitado {
+            background-color: #E6D4CF;
+            /* Color de fondo */
+            border-color: #E6D4CF;
+            /* Color del borde */
+            color: #000000;
+            /* Color del texto */
+        }
+
+        /* Estilo para el botón de Registrarse */
+        .btn-registrarse {
+            background-color: #DDCFE6;
+            /* Color de fondo */
+            border-color: #DDCFE6;
+            /* Color del borde */
+            color: #000000;
+            /* Color del texto */
+        }
+
+        /* Estilos de hover para ambos botones */
+        .btn-invitado:hover,
+        .btn-registrarse:hover {
+            opacity: 0.8;
+            /* Reducción de la opacidad al pasar el mouse */
+        }
+
+        /* Estilos de sombreado para el texto centrado al hacer hover */
+        .centered-text:hover {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            /* Sombreado del texto */
+        }
+
+        /* Estilo de degradado para el navbar */
+        .navbar {
+            background-image: linear-gradient(to right, #A57497, #CFE6DD, #B8D4E3);
+            /* Degradado de tres colores pasteles */
+        }
+
+        /* Estilo para los íconos de las redes sociales */
+        .social-icons a {
+            margin-right: 10px;
+            /* Espacio entre los íconos */
+        }
+
+        /* Estilo para el texto de las redes sociales */
+        .mini-paragraph {
+            font-size: 14px;
+            /* Tamaño del texto */
+            margin-bottom: 15px;
+            /* Espacio inferior */
+        }
+
+
   </style>
 </head>
 <body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid px-4"> <!-- Añadir clase "px-4" para agregar espacio a los lados -->
+            <a class="navbar-brand" href="#">
+                <img loading="lazy" src="WhatsApp_Image_2024-04-18_at_10.15.49-removebg-preview (1).png" width="45"
+                    height="" class="d-inline-block align-top" alt="">
+                <span style="font-size: 0.6em; font-style: italic;" class="fw-semibold centered-text">MENTAL
+                    OASIS</span>
+            <img src="./pic/mentaloasislogo.png" width="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> <!-- Añadir clase "mx-auto" para centrar los elementos -->
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold centered-text" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold centered-text" href="#">Juego SaludMental</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold centered-text" href="#">Aprendamos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold centered-text" href="#">Sobre Nosotras</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto"> <!-- Alinea los botones a la derecha -->
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-success rounded-pill me-2 btn-invitado" href="#"><span
+                                class="centered-text">Invitado</span></a>
+                        <!-- Agrega clase "me-2" para espaciar el botón -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary rounded-pill btn-registrarse" href="#"><span
+                                class="centered-text">Registrarse</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="page-container">
         <h3>Tipos de Inteligencia y la importancia de cada una en la sociedad</h1>
@@ -85,7 +188,7 @@
 
                      </div>
 
-                     <div class="row mt-3">
+                     <div class="row mt-3 mb-5">
                         <div class="col">
                         <h5>8. Inteligencia Naturalista</h3>
                             <p>Estas personas sienten gran interés por la naturaleza, los animales y la vegetación en general. ¿Cómo puedes desarrollarla? Pasa tiempo al aire libre y participa en actividades de excursión.</p>
@@ -94,6 +197,73 @@
                 </div>
 
     </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row p-5 bg-secondary text-white">
+                <div class="col mb-3">
+                    <div class="xhifire-logo">
+                        <img src="./pic/mentaloasislogo.png" alt="XHIFIRE2024" class="logo-image" width="110">
+                        <p class="text-body-secondary mb-0">© <span class="fw-semibold">XHIFIRE2024</span></p>
+                    </div>
+                    <p class="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
+        <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook fa-2x" style="color: #2E519C;"></i></a>
+            <a href="#"><i class="bi bi-instagram fa-2x" style="color: #AC2BAC;"></i></a>
+            <a href="#"><i class="bi bi-google fa-2x" style="color: #791275;"></i></a>
+            <a href="#"><i class="bi bi-twitter fa-2x" style="color: #24519F;"></i></a>
+        </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">MENÚ RÁPIDO</p>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">ODS 3</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Salud Mental</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Depresión</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Estrés</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">SOBRE NOSOTRAS</p>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Nuestra Historia</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Nuestra Misión</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Nuestros Valores</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">LÍNEAS DE EMERGENCIA</p>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Línea libre para niñas, niños y
+                            adolescentes:
+                            1515</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Whatssap mujer: +569 9700 7000</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Fono infancia: 800 200 188</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Fono salud mental: 600 360 7777</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">SOS: 171</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
