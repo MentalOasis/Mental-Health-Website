@@ -9,25 +9,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
-
     <style>
         .page-container {
             margin-top: 60px;
             margin-left: 20px;
             margin-right: 20px;
-            font-family: manrope;
+            font-family: 'Manrope', sans-serif;
         }
 
-        .custom-btn-width {
-      width: 200px;
-        }
-  
-        .text-right-margin {
-            margin-right: 10px;
+        .navbar,
+        footer {
+            width: 100%;
+            max-width: 100%;
         }
 
-         /* Estilo para el botón de Invitado */
-         .btn-invitado {
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+          /* Estilo para el botón de Invitado */
+          .btn-invitado {
             background-color: #E6D4CF;
             /* Color de fondo */
             border-color: #E6D4CF;
@@ -78,29 +82,22 @@
             margin-bottom: 15px;
             /* Espacio inferior */
         }
-
-
-  </style>
+    </style>
 </head>
 <body>
-
     <!-- navbar -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid px-4"> <!-- Añadir clase "px-4" para agregar espacio a los lados -->
+        <div class="container-fluid px-4">
             <a class="navbar-brand" href="#">
-                <img loading="lazy" src="WhatsApp_Image_2024-04-18_at_10.15.49-removebg-preview (1).png" width="45"
-                    height="" class="d-inline-block align-top" alt="">
-                <span style="font-size: 0.6em; font-style: italic;" class="fw-semibold centered-text">MENTAL
-                    OASIS</span>
-            <img src="./pic/mentaloasislogo.png" width="40">
+                <img loading="lazy" src="WhatsApp_Image_2024-04-18_at_10.15.49-removebg-preview (1).png" width="45" height="" class="d-inline-block align-top" alt="">
+                <span style="font-size: 0.6em; font-style: italic;" class="fw-semibold centered-text">MENTAL OASIS</span>
+                <img src="./pic/mentaloasislogo.png" width="40">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav mx-auto"> <!-- Añadir clase "mx-auto" para centrar los elementos -->
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a class="nav-link active fw-semibold centered-text" aria-current="page" href="#">Inicio</a>
                     </li>
@@ -114,159 +111,220 @@
                         <a class="nav-link fw-semibold centered-text" href="#">Sobre Nosotras</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ms-auto"> <!-- Alinea los botones a la derecha -->
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-success rounded-pill me-2 btn-invitado" href="#"><span
-                                class="centered-text">Invitado</span></a>
-                        <!-- Agrega clase "me-2" para espaciar el botón -->
+                        <a class="nav-link btn btn-outline-success rounded-pill me-2 btn-invitado" href="#"><span class="centered-text">Invitado</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary rounded-pill btn-registrarse" href="#"><span
-                                class="centered-text">Registrarse</span></a>
+                        <a class="nav-link btn btn-outline-primary rounded-pill btn-registrarse" href="#"><span class="centered-text">Registrarse</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <div class="page-container">
-        <h3>Tipos de Inteligencia y la importancia de cada una en la sociedad</h1>
-            <p class="mt-5">A lo largo de la historia, se han propuesto diversas clasificaciones sobre la inteligencia. En la actualidad, una teoría destacada es la de Howard Gardner, que postula que la inteligencia no se limita a características específicas, sino que consiste en una variedad de habilidades interrelacionadas. 
-                Según esta teoría, todas las personas poseen diferentes tipos de inteligencia y en diversas medidas, influenciadas por factores biológicos, personales y culturales. 
-                Gardner identifica ocho tipos de inteligencia, por lo que cada individuo puede destacar en diferentes áreas, lo que contribuye a su singularidad. Esta teoría ha impactado de gran manera la educación, fomentando un enfoque más diverso y amplio, reconociendo y valorando las diferencias individuales.
-                </p>
 
-                <div class="row mt-5">
-                    <div class="col">
-                        <h5>1. Inteligencia Musical</h3>
-                            <p>Las personas demuestran gran interés por los instrumentos musicales, el baile y la música. ¿Cómo puedes desarrollarla? Tomando clases o practicando un instrumento</p>
-        
-                    </div>
+        <h3>Tipos de Inteligencia y la importancia de cada una en la sociedad</h3>
 
+        <p class="mt-5">A lo largo de la historia, se han propuesto diversas clasificaciones sobre la inteligencia. En la actualidad, una teoría destacada es la de Howard Gardner, que postula que la inteligencia no se limita a características específicas, sino que consiste en una variedad de habilidades interrelacionadas. Según esta teoría, todas las personas poseen diferentes tipos de inteligencia y en diversas medidas, influenciadas por factores biológicos, personales y culturales. Gardner identifica ocho tipos de inteligencia, por lo que cada individuo puede destacar en diferentes áreas, lo que contribuye a su singularidad. Esta teoría ha impactado de gran manera la educación, fomentando un enfoque más diverso y amplio, reconociendo y valorando las diferencias individuales.</p>
 
-                    <div class="row mt-3">
-                        <div class="col">
-                        <h5>2. Inteligencia Visocespacial</h3>
-                            <p>Se muestra gran interés por las fotografías, la construcción de objetos y los dibujos. ¿Cómo puedes desarrollarla? Visita museos, juega con puzzles y crea mapas conceptuales.</p>
-                    
-                    </div>
-
-                    <div class="row mt-3">
-                        <div class="col">
-                        <h5>3. Inteligencia Verbal lingüística</h3>
-                            <p>Estas personas disfrutan mucho de los libros y la escritura. ¿Cómo desarrollarla? Puedes aprender un idioma y leer sobre los temas que más te gusten.</p>
-    
-
-                     </div>
-
-                     <div class="row mt-3">
-                        <div class="col">
-                        <h5>4. Inteligencia Lógico Matemática</h3>
-                            <p>Aquellos que gustan de los números y las ciencias exactas tienen este tipo de inteligencia. ¿Cómo desarrollarla? Crea esquemas y disfruta de juegos de lógica y códigos.</p>
-
-                     </div>
-
-                     <div class="row mt-3">
-                        <div class="col">
-                        <h5>5. Inteligencia Corporal Kinestésica</h3>
-                            <p>Las personas con este tipo de inteligencia muestran mucho interés por las actividades físicas y los deportes. ¿Cómo puedes desarrollarla? Participa en juegos de mímicas y clases de arte y teatro.</p>
-                        
-                     </div>
-
-                     <div class="row mt-3">
-                        <div class="col">
-                        <h5>6. Inteligencia Interpersonal</h3>
-                            <p>Este grupo de personas gusta mucho de tener amigos, entablar conversaciones con otros y participar de diferentes clubes y equipos. ¿Cómo desarrollarla? Sé parte de debates juegos multijugador.</p>
-                        
-                     </div>
-
-                     <div class="row mt-3">
-                        <div class="col">
-                        <h5>7. Inteligencia Intrapersonal</h3>
-                            <p>Poseen esta inteligencia aquellas personas que se caracterizan por reflexionar sobre tus emociones que desafían su zona de confort. ¿Cómo puedes desarrollarla? Puedes participar en charlas de habilidades blandas y ser parte de juegos que promuevan la reflexión y la perspectiva.</p>
-
-
-                     </div>
-
-                     <div class="row mt-3 mb-5">
-                        <div class="col">
-                        <h5>8. Inteligencia Naturalista</h3>
-                            <p>Estas personas sienten gran interés por la naturaleza, los animales y la vegetación en general. ¿Cómo puedes desarrollarla? Pasa tiempo al aire libre y participa en actividades de excursión.</p>
-
-                     </div>
-                </div>
-
-    </div>
-    <footer>
-        <div class="container-fluid">
-            <div class="row p-5 bg-secondary text-white">
-                <div class="col mb-3">
-                    <div class="xhifire-logo">
-                        <img src="./pic/mentaloasislogo.png" alt="XHIFIRE2024" class="logo-image" width="110">
-                        <p class="text-body-secondary mb-0">© <span class="fw-semibold">XHIFIRE2024</span></p>
-                    </div>
-                    <p class="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
-        <div class="social-icons">
-            <a href="#"><i class="bi bi-facebook fa-2x" style="color: #2E519C;"></i></a>
-            <a href="#"><i class="bi bi-instagram fa-2x" style="color: #AC2BAC;"></i></a>
-            <a href="#"><i class="bi bi-google fa-2x" style="color: #791275;"></i></a>
-            <a href="#"><i class="bi bi-twitter fa-2x" style="color: #24519F;"></i></a>
-        </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <p class="h5 mb-3">MENÚ RÁPIDO</p>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">ODS 3</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Salud Mental</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Depresión</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Estrés</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <p class="h5 mb-3">SOBRE NOSOTRAS</p>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Nuestra Historia</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Nuestra Misión</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Nuestros Valores</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <p class="h5 mb-3">LÍNEAS DE EMERGENCIA</p>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Línea libre para niñas, niños y
-                            adolescentes:
-                            1515</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Whatssap mujer: +569 9700 7000</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Fono infancia: 800 200 188</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">Fono salud mental: 600 360 7777</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-white text-decoration-none" href="#">SOS: 171</a>
-                    </div>
-                </div>
+        <div class="row mt-5">
+            <div class="col">
+                <h5>1. Inteligencia Musical</h5>
+                <p>Las personas demuestran gran interés por los instrumentos musicales, el baile y la música. ¿Cómo puedes desarrollarla? Tomando clases o practicando un instrumento</p>
             </div>
         </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h5>2. Inteligencia Visocespacial</h5>
+                <p>Se muestra gran interés por las fotografías, la construcción de objetos y los dibujos. ¿Cómo puedes desarrollarla? Visita museos, juega con puzzles y crea mapas conceptuales.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h5>3. Inteligencia Verbal lingüística</h5>
+                <p>Estas personas disfrutan mucho de los libros y la escritura. ¿Cómo desarrollarla? Puedes aprender un idioma y leer sobre los temas que más te gusten.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h5>4. Inteligencia Lógico Matemática</h5>
+                <p>Aquellos que gustan de los números y las ciencias exactas tienen este tipo de inteligencia. ¿Cómo desarrollarla? Crea esquemas y disfruta de juegos de lógica y códigos.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h5>5. Inteligencia Corporal Kinestésica</h5>
+                <p>Las personas con este tipo de inteligencia muestran mucho interés por las actividades físicas y los deportes. ¿Cómo puedes desarrollarla? Participa en juegos de mímicas y clases de arte y teatro.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h5>6. Inteligencia Interpersonal</h5>
+                <p>Este grupo de personas gusta mucho de tener amigos, entablar conversaciones con otros y participar de diferentes clubes y equipos. ¿Cómo desarrollarla? Sé parte de debates juegos multijugador.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <h5>7. Inteligencia Intrapersonal</h5>
+                <p>Poseen esta inteligencia aquellas personas que se caracterizan por reflexionar sobre tus emociones que desafían su zona de confort. ¿Cómo puedes desarrollarla? Puedes participar en charlas de habilidades blandas y ser parte de juegos que promuevan la reflexión y la perspectiva.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-5">
+            <div class="col">
+                <h5>8. Inteligencia Naturalista</h5>
+                <p>Estas personas sienten gran interés por la naturaleza, los animales y la vegetación en general. ¿Cómo puedes desarrollarla? Pasa tiempo al aire libre y participa en actividades de excursión.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="container-fluid">
+
+            <div class="row p-5 bg-secondary text-white">
+
+                <div class="col mb-3">
+
+                    <div class="xhifire-logo">
+
+                        <img src="./pic/mentaloasislogo.png" alt="XHIFIRE2024" class="logo-image" width="110">
+
+                        <p class="text-body-secondary mb-0">© <span class="fw-semibold">XHIFIRE2024</span></p>
+
+                    </div>
+
+                    <p class="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
+
+        <div class="social-icons">
+
+            <a href="#"><i class="bi bi-facebook fa-2x" style="color: #2E519C;"></i></a>
+
+            <a href="#"><i class="bi bi-instagram fa-2x" style="color: #AC2BAC;"></i></a>
+
+            <a href="#"><i class="bi bi-google fa-2x" style="color: #791275;"></i></a>
+
+            <a href="#"><i class="bi bi-twitter fa-2x" style="color: #24519F;"></i></a>
+
+        </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5 mb-3">MENÚ RÁPIDO</p>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">ODS 3</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Salud Mental</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Depresión</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Estrés</a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5 mb-3">SOBRE NOSOTRAS</p>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Nuestra Historia</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Nuestra Misión</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Nuestros Valores</a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5 mb-3">LÍNEAS DE EMERGENCIA</p>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Línea libre para niñas, niños y
+
+                            adolescentes:
+
+                            1515</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">WhatsApp mujer: +569 9700 7000</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Fono infancia: 800 200 188</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Fono salud mental: 600 360 7777</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">SOS: 171</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </footer>
 
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <script src="tiposdeinteligencia.js"></script>
+
 </body>
+
 </html>
