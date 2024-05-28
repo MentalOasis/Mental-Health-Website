@@ -1,5 +1,6 @@
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import  mentaloasislogo from '/public/pic/mentaloasislogo.png';
 
 
 
@@ -7,11 +8,11 @@ const Footer = () => {
     return ( 
         
 <footer>
-  <div className="container-fluid" style={{width: '100%'}} >
+  <div className="container-fluid text-start" style={{width: '100%'}} >
       <div className="row p-5 bg-secondary text-white">
           <div className="col mb-3">  
               <div className="xhifire-logo">
-                  <img src="pic/mentaloasislogo.png" alt="XHIFIRE2024" className="logo-image" width="110"/>
+                  <img src={mentaloasislogo} alt="XHIFIRE2024" className="logo-image" width="110"/>
                   <p className="text-body-secondary mb-0">© <span className="fw-semibold">XHIFIRE2024</span></p>
               </div>
               <p className="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
