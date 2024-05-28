@@ -16,14 +16,14 @@ const Footer = () => {
               </div>
               <p className="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
               <div className="social-icons">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#833AB4" , fontSize : "32px" }} >
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#AC2BAC" , fontSize : "32px" }} >
           <i className="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#791275", fontSize : "32px"  }} >
+          <i className="bi bi-google"></i>
         </a>
         <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer" className="text-dark" style={{ fontSize : "32px" }}  >
           <i className="bi bi-x"></i>
-        </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#DB4437", fontSize : "32px"  }} >
-          <i className="bi bi-google"></i>
         </a>
         <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#60" , fontSize : "32px" }} >
           <i className="bi bi-tiktok"></i>
@@ -34,50 +34,50 @@ const Footer = () => {
       </div>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
-              <p className="h5 mb-3">MENÚ RÁPIDO</p>
+              <p className="h5 mb-3 hover-sin-underline">MENÚ RÁPIDO</p>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">ODS 3</a>
+                  <a className="text-white text-decoration-none hover-underline" href="#">ODS 3</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Salud Mental</a>
+                  <a className="text-white text-decoration-none hover-underline" href="#">Salud Mental</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Depresión</a>
+                  <a className="text-white text-decoration-none hover-underline" href="#">Depresión</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Estrés</a>
-              </div>
-          </div>
-          <div className="col-xs-12 col-md-6 col-lg-3">
-              <p className="h5 mb-3">SOBRE NOSOTRAS</p>
-              <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Nuestra Historia</a>
-              </div>
-              <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Nuestra Misión</a>
-              </div>
-              <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Nuestros Valores</a>
+                  <a className="text-white text-decoration-none hover-underline" href="#">Estrés</a>
               </div>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
-              <p className="h5 mb-3">LÍNEAS DE EMERGENCIA</p>
+              <p className="h5 mb-3 hover-underline">SOBRE NOSOTRAS</p>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Línea libre para niñas, niños y
+                  <a className="text-white text-decoration-none hover-underline" href="#">Nuestra Historia</a>
+              </div>
+              <div className="mb-2">
+                  <a className="text-white text-decoration-none hover-underline" href="#">Nuestra Misión</a>
+              </div>
+              <div className="mb-2">
+                  <a className="text-white text-decoration-none hover-underline" href="#">Nuestros Valores</a>
+              </div>
+          </div>
+          <div className="col-xs-12 col-md-6 col-lg-3">
+              <p className="h5 mb-3 hover-underline">LÍNEAS DE EMERGENCIA</p>
+              <div className="mb-2">
+                  <a className="text-white text-decoration-none hover-sin-underline" href="#">Línea libre para niñas, niños y
                       adolescentes:
                       1515</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Whatsapp mujer: +569 9700 7000</a>
+                  <a className="text-white text-decoration-none hover-sin-underline" href="#">Whatsapp mujer: +569 9700 7000</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Fono infancia: 800 200 188</a>
+                  <a className="text-white text-decoration-none hover-sin-underline" href="#">Fono infancia: 800 200 188</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">Fono salud mental: 600 360 7777</a>
+                  <a className="text-white text-decoration-none hover-sin-underline" href="#">Fono salud mental: 600 360 7777</a>
               </div>
               <div className="mb-2">
-                  <a className="text-white text-decoration-none" href="#">SOS: 171</a>
+                  <a className="text-white text-decoration-none hover-sin-underline" href="#">SOS: 171</a>
               </div>
           </div>
       </div>
