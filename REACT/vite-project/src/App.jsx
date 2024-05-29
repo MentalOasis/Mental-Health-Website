@@ -9,9 +9,8 @@ import BtnIzquierda from '/src/componentes/BtnIzquierda.jsx'
 import Footer from '/src/componentes/Footer.jsx'
 import '/src/componentes/footer.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
-
-
-
+import Navbar from './componentes/Navbar';
+import  ImageAccordion  from './componentes/ImageAccordion.jsx';
 
 
 function App() {
@@ -19,8 +18,9 @@ function App() {
 
   return (
     <>
-      <Botones/>
-      <BtnIzquierda/>
+      <Navbar/>
+      {/* <Botones/> */}
+      <ImageAccordion/> 
       <Footer/>
 
     </>

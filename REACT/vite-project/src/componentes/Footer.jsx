@@ -8,28 +8,28 @@ const Footer = () => {
     return ( 
         
 <footer>
-  <div className="container-fluid text-start" style={{width: '100%'}} >
-      <div className="row p-5 bg-secondary text-white">
-          <div className="col mb-3">  
-              <div className="xhifire-logo">
-                  <img src={mentaloasislogo} alt="XHIFIRE2024" className="logo-image" width="110"/>
+  <div className="container-fluid text-start" style={{width: '100%', margin: "0px", padding: "0px"}} >
+      <div className="row p-3 bg-secondary text-white" >
+          <div className="col mb-3 ">  
+              <div className="xhifire-logo text-center">
+                  <img src={mentaloasislogo} alt="XHIFIRE2024" className="logo-image" width="100"/>
                   <p className="text-body-secondary mb-0">© <span className="fw-semibold">XHIFIRE2024</span></p>
               </div>
-              <p className="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
-              <div className="social-icons">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#AC2BAC" , fontSize : "32px" }} >
+              <p className="mini-paragraph text-center">Siguenos en nuestras Redes Sociales</p>
+              <div className="social-icons text-center">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#AC2BAC" , fontSize : "25px" }} >
           <i className="bi bi-instagram"></i>
         </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#791275", fontSize : "32px"  }} >
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#791275", fontSize : "25px"  }} >
           <i className="bi bi-google"></i>
         </a>
-        <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer" className="text-dark" style={{ fontSize : "32px" }}  >
+        <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer" className="text-dark" style={{ fontSize : "25px" }}  >
           <i className="bi bi-x"></i>
         </a>
-        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#60" , fontSize : "32px" }} >
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#60" , fontSize : "25px" }} >
           <i className="bi bi-tiktok"></i>
         </a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#1877F2", fontSize : "32px"  }} >
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#1877F2", fontSize : "25px"  }} >
           <i className="bi bi-facebook "></i>
         </a>
       </div>
