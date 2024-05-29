@@ -10,9 +10,14 @@ import image5 from "./Designer(37).jpeg";
 
 const items = [
   {
-    header: "Canada",
+    header: "¿Cómo me siento?",
     image: image2,
-    text: `Image description`,
+    text: `La adolescencia es un período crucial para el desarrollo de hábitos sociales y emocionales importantes para el bienestar mental. 
+    Durante esta etapa, los jóvenes experimentan una serie de cambios físicos, emocionales y sociales que pueden influir en cómo se sienten, 
+    es por ello que es fundamental que se promueva su salud mental, a través de intervenciones que fortalezcan su capacidad para regular las emociones,
+    fomentar comportamientos saludables y desarrollar la resiliencia para hacer frente a situaciones difíciles. Estas intervenciones se centran 
+    en potenciar alternativas a los comportamientos de riesgo, promover entornos y redes sociales favorables y brindar herramientas para gestionar 
+    de manera saludable las emociones.`,
   },
 
   {
@@ -60,7 +65,7 @@ export const ImageAccordion = () => {
             >
               <img src={item.image} />
               <div className="content">
-                <span className="material-symbols-outlined">photo_camera</span>
+                {/* <span className="material-symbols-outlined">photo_camera</span> */}
                 <div>
                   <h2>{item.header}</h2>
                   <p>{item.text}</p>

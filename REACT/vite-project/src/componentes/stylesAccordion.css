@@ -26,6 +26,8 @@
     cursor: pointer;
     font-family: "Euclid Circular A", "Poppins";
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
   }
   
@@ -52,11 +54,11 @@
   .image-accordion-item h2 {
     font-size: 24px;
     font-weight: 400;
-    color: rgb(255 255 255 / 96%);
+    color: rgb(255, 255, 255);
   }
   
   .image-accordion-item p {
-    color: rgb(255 255 255 / 66%);
+    color: rgba(255, 255, 255, 0.9);
   }
   
   .image-accordion-item.active {
