@@ -1,0 +1,10 @@
+
+.emoji {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .emoji:hover {
+    transform: scale(1.2);
+  }
+  
