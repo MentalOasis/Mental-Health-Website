@@ -21,8 +21,8 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Botones/> */}
-      <ImageAccordion/> 
+      <Botones/>
+      {/* <ImageAccordion/>  */}
       <Footer/>
 
     </>

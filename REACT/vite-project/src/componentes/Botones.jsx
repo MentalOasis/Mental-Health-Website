@@ -1,6 +1,7 @@
 
 import BtnIzquierda from "./BtnIzquierda";
 import { hacerClick, hacerClick2 } from "/src/categoriasR.js";
+import './adminboton.css'
 
 const temas = [
   { categoria: "Hábitos Saludables", items: ["Hábitos saludables", "Alimentación", "Ejercicio"] },
@@ -20,12 +21,12 @@ const Botones = () => {
             <p className="text-right fs-2 fw-bolder">Temas</p>
             {temas.map((tema, index) => (
               <div key={index}>
-                <p className="fs-5 fw-semibold mt-5 ">{tema.categoria}</p>
+                <p className="fs-5 fw-bold mt-5 ">{tema.categoria}</p>
                 {tema.items.map((item, idx) => (
                   <div className="row" key={idx}>
                     <p className="fw-normal col mt-3">{item}</p>
                     <div className="col-md-4">
-                      <a onClick={hacerClick} className="btn btn-outline-secondary m-3 text-center" href="#" role="button">Editar</a>
+                      <a onClick={hacerClick} className="btn btn-outline-secondary btn-editar m-3 text-center" href="#" role="button">Editar</a>
                     </div>
                   </div>
                 ))}
@@ -33,7 +34,7 @@ const Botones = () => {
             ))}
             <div className="row mt-5" style={{ marginRight: "250px" }}>
               <div className="d-grid gap-2 col-4 mx-auto mt-5">
-                <a onClick={hacerClick2} className="btn btn-outline-secondary m-2 text-center" href="#" role="button">Nuevo tema</a>
+                <a onClick={hacerClick2} className="btn btn-outline-secondary btn-editar btn-largo m-2 text-center" href="#" role="button">Nuevo tema</a>
               </div>
             </div>
           </div>
