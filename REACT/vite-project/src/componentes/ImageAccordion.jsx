@@ -5,6 +5,7 @@ import image2 from "./Designer (67) (1).jpeg";
 import image3 from "./Designer (52).jpeg";
 import image4 from "./Designer (39).jpeg";
 import image5 from "./Designer (64).jpeg";
+import EmojiRating from './EmojiRating.jsx';
 
 
 const items = [
@@ -76,14 +77,16 @@ export const ImageAccordion = () => {
             >
              
               <img src={item.image} />
+              
               {active !== index && (
-                  <span className="material-symbols-outlined">{item.symbol}</span>
+                  <span className="image-accordion-item material-symbols-outlined">{item.symbol}</span>
                 )}
+                
             
               <div className="content">
               
               
-                <div>
+                <div className="card">
                   <h2>{item.header}</h2>
                   <p>{item.text}</p>
                 </div>
@@ -92,9 +95,9 @@ export const ImageAccordion = () => {
           );
         })}
       </div>
-        
+      <EmojiRating/>
       </div>
-       
+      
     </>
   );
 };
