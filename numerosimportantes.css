@@ -158,3 +158,8 @@
 #margenlínea2 {
     margin-top: 60px;
 }
+
+.textoDestacado:hover {
+    color: fuchsia;
+
+}
