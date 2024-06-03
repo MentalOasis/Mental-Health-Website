@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="pestañastyle.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <title>Pasatiempos Saludables</title>
+    <style>
+
+        .page-container {
+
+            margin-top: 100px;
+
+            margin-left: 20px;
+
+            margin-right: 20px;
+
+            font-family: manrope;
+
+        }
+
+
+
+
+        .custom-btn-width {
+
+      width: 200px;
+
+        }
+
+  
+
+        .text-right-margin {
+
+            margin-right: 10px;
+
+        } -->
+
+
+
+
+         <!-- /* Estilo para el botón de Invitado */
+
+         .btn-invitado {
+
+            background-color: #E6D4CF;
+
+            /* Color de fondo */
+
+            border-color: #E6D4CF;
+
+            /* Color del borde */
+
+            color: #000000;
+
+            /* Color del texto */
+
+        }
+
+
+
+
+        /* Estilo para el botón de Registrarse */
+
+        .btn-registrarse {
+
+            background-color: #DDCFE6;
+
+            /* Color de fondo */
+
+            border-color: #DDCFE6;
+
+            /* Color del borde */
+
+            color: #000000;
+
+            /* Color del texto */
+
+        }
+
+
+
+
+        /* Estilos de hover para ambos botones */
+
+        .btn-invitado:hover,
+
+        .btn-registrarse:hover {
+
+            opacity: 0.8;
+
+            /* Reducción de la opacidad al pasar el mouse */
+
+        }
+
+
+
+
+        /* Estilos de sombreado para el texto centrado al hacer hover */
+
+        .centered-text:hover {
+
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+            /* Sombreado del texto */
+
+        }
+
+
+
+
+        /* Estilo de degradado para el navbar */
+
+        .navbar {
+
+            background-image: linear-gradient(to right, #A57497, #CFE6DD, #B8D4E3);
+
+            /* Degradado de tres colores pasteles */
+
+        }
+
+
+
+
+        /* Estilo para los íconos de las redes sociales */
+
+        .social-icons a {
+
+            margin-right: 10px;
+
+            /* Espacio entre los íconos */
+
+        }
+
+
+
+
+        /* Estilo para el texto de las redes sociales */
+
+        .mini-paragraph {
+
+            font-size: 14px;
+
+            /* Tamaño del texto */
+
+            margin-bottom: 15px;
+
+            /* Espacio inferior */
+
+        }
+
+
+
+
+        .imagen-redondeada {
+
+            border-radius: 50%;
+
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #000; /* Cambia el color y el grosor según sea necesario */
+            margin: 20px 0; /* Margen superior e inferior para separación */
+        }
+
+  </style>
+
+
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid px-4"> 
+
+            <a class="navbar-brand" href="#">
+
+                <img loading="lazy" src="WhatsApp_Image_2024-04-18_at_10.15.49-removebg-preview (1).png" width="45"
+
+                    height="" class="d-inline-block align-top" alt="">
+
+                <span style="font-size: 0.6em; font-style: italic;" class="fw-semibold centered-text">MENTAL
+
+                    OASIS</span>
+
+            <img src="./pic/mentaloasislogo.png" width="40">
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+                <ul class="navbar-nav mx-auto"> 
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active fw-semibold centered-text" aria-current="page" href="#">Inicio</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link fw-semibold centered-text" href="#">Juego SaludMental</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link fw-semibold centered-text" href="#">Aprendamos</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link fw-semibold centered-text" href="#">Sobre Nosotras</a>
+
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav ms-auto"> 
+
+                    <li class="nav-item">
+
+                        <a class="nav-link btn btn-outline-success rounded-pill me-2 btn-invitado" href="#"><span
+
+                                class="centered-text">Invitado</span></a>
+
+                       
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link btn btn-outline-primary rounded-pill btn-registrarse" href="#"><span
+
+                                class="centered-text">Registrarse</span></a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <h3 class="text-center fw-semibold mt-5">Explora Pasatiempos Saludables</h3>
+    <p class="text-center mt-4">Descubre actividades que promueven el bienestar mental</p>
+    <div class="d-flex justify-content-center mt-5"> <!-- Utiliza flex-column para alinear los elementos verticalmente -->
+        <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Yoga</a>
+        <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Lectura</a>
+        <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Deportes</a>
+        <a class="btn btn-outline-secondary m-2 custom-btn-width text-start" href="..." role="button">Meditación</a>
+    </div>
+
+    
+    <div class="row mt-5">
+        <!-- Columna con la tarjeta a la izquierda -->
+        <!-- Columna con el título centrado -->
+        <div class="col-4 mt-5 text-center offset-md-1 textos">
+            <h3 class="text-start">Yoga</h3>
+            <p class="mt-5 text-start">Practica yoga para el bienestar físico y mental</p>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="offset-md-1 col-md-5">
+                <div id="tarjeta" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Columna con la imagen -->
+                            <div class="col-4">
+                                <img src="pic/Designer (47).jpeg" alt="100px" class="img-fluid">
+                            </div>
+                            <!-- Columna con el contenido -->
+                            <div class="col-8">
+                                <h5 class="card-title text-start">Descubre el Mundo Yoga</h5>
+                                <p class="text-start">Es excelente para desbloquear emociones, superar miedos y soltar ansiedades y tensiones.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Nueva columna con la imagen -->
+            <div class="col-md-5">
+                <img id="imagen2" src="pic/Designer (52).jpeg" class="img-fluid" >
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Columna con la tarjeta a la izquierda -->
+        <!-- Columna con el título centrado -->
+        <div class="col-4 mt-5 text-start offset-md-1 textos">
+            <h3>Lectura</h3>
+            <p class="mt-5">Lectura de libros para la relajación y el crecimiento personal.</p>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="offset-md-1 col-md-10"> <!-- Aumentamos el tamaño de la columna a col-md-7 para que la tarjeta sea más larga hacia la derecha -->
+                <div id="tarjeta2" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Columna con la imagen -->
+                            <div class="col-4">
+                                <img src="ruta/a/la/imagen.jpg" alt="Descripción de la imagen" class="img-fluid">
+                            </div>
+                            <!-- Columna con el contenido -->
+                            <div class="col-8">
+                                <h5 class="card-title text-start">Beneficios de lectura</h5>
+                                <p class="text-start">La lectura puede reducir la ansiedad, mejorar la concentración y aumentar la empatía.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+        </div>
+    </div>
+
+    <div class="row">
+            <!-- Imagen a la izquierda -->
+            <div class="col-4">
+                <img id="imagenACambiar" src="pic/Designer (20).jpeg" class="img-fluid">
+            </div>
+        <!-- Columna con el título centrado -->
+        <div class="col-4 mt-5 offset-md-6 text-center"> <!-- Cambiamos offset-md-8 a offset-md-7 y agregamos la clase text-center -->
+            <h3 class="text-start">Deportes - Talleres</h3>
+            <p class="mt-5 text-start">Practicar deportes para mejorar la salud física y mental.</p>
+        </div>
+        
+        <div class="row mt-3 mb-5">
+            <div class="offset-md-6 col-md-5"> <!-- Cambiamos el offset-md-1 a offset-md-6 para desplazar la tarjeta hacia la derecha -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Columna con la imagen -->
+                            <div class="col-4">
+                                <img src="pic/Designer (63).jpeg" alt="Descripción de la imagen" class="img-fluid">
+                            </div>
+                            <!-- Columna con el contenido -->
+                            <div class="col-8">
+                                <h5 class="card-title text-start">Beneficios del Deporte</h5>
+                                <p class="text-start">Practicar deportes puede mejorar el trabajo en equipo, reducir el estrés y aumentar la confianza.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    
+        
+    <div class="row espaciadorfinal">
+        <!-- Columna con la tarjeta a la izquierda -->
+        <!-- Columna con el título centrado -->
+        <div  id="tituloM" class="col-4 mt-5 text-start offset-md-1">
+            <h3>Meditación</h3>
+            <p class="mt-5">Practicar la meditación para la calma interior y la claridad.</p>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="offset-md-1 col-md-5">
+                <div id="tarjetaM" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Columna con la imagen -->
+                            <div class="col-4">
+                                <img src="ruta/a/la/imagen.jpg" alt="Descripción de la imagen" class="img-fluid">
+                            </div>
+                            <!-- Columna con el contenido -->
+                            <div class="col-8">
+                                <h5 class="card-title text-start">Beneficios de la meditación</h5>
+                                <p class="text-start">La meditación puede reducir la ansiedad, mejorar la autoconciencia y promover la salud emocional.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="imagenFinal" class="col-md-5">
+                <img src="pic/Designer (92).jpeg" alt="100px" width="400px">
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="container-fluid mt-4">
+
+        <footer>
+
+            <div class="row p-5 bg-secondary text-white">
+
+
+
+                <div class="col mb-3">
+
+
+
+                    <div class="xhifire-logo">
+
+
+
+                        <img src="./pic/mentaloasislogo.png" alt="XHIFIRE2024" class="logo-image" width="110">
+
+
+
+                        <p class="text-body-secondary mb-0">© <span class="fw-semibold">XHIFIRE2024</span></p>
+
+
+
+                    </div>
+
+
+
+                    <p class="mini-paragraph">Siguenos en nuestras Redes Sociales</p>
+
+
+
+        <div class="social-icons">
+
+            <a href="#"><i class="bi bi-facebook fa-2x" style="color: #2E519C;"></i></a>
+
+
+            <a href="#"><i class="bi bi-instagram fa-2x" style="color: #AC2BAC;"></i></a>
+
+
+            <a href="#"><i class="bi bi-google fa-2x" style="color: #791275;"></i></a>
+
+
+            <a href="#"><i class="bi bi-twitter fa-2x" style="color: #24519F;"></i></a>
+
+
+
+        </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5 mb-3">MENÚ RÁPIDO</p>
+
+                    <div class="mb-2">
+
+
+                        <a class="text-white text-decoration-none" href="#">ODS 3</a>
+
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Salud Mental</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Depresión</a>
+
+                    </div>
+
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none" href="#">Estrés</a>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5 mb-3">SOBRE NOSOTRAS</p>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Nuestra Historia</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Nuestra Misión</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Nuestros Valores</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5 mb-3">LÍNEAS DE EMERGENCIA</p>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Línea libre para niñas, niños y
+
+                            adolescentes:
+
+                            1515</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">WhatsApp mujer: +569 9700 7000</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Fono infancia: 800 200 188</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">Fono salud mental: 600 360 7777</a>
+
+                    </div>
+
+                    <div class="mb-2">
+
+                        <a class="text-white text-decoration-none" href="#">SOS: 171</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+    </div>
+        
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="pestañascript.js"></script>
+</body>
+</html>
