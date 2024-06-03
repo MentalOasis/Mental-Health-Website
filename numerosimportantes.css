@@ -23,16 +23,7 @@
     margin-top: -130px;
     
     margin-left: 70px;
-
-    
-
-
-
-
 }
-
-
-
 
 #imagen3 {
 
@@ -45,11 +36,7 @@
     margin-top: -30px;
 
 
-
-
 }
-
-
 
 
 #imagen4 {
@@ -60,25 +47,18 @@
 
     margin-left: 100px;
 
-
-
-
-
-
 }
-
-
 
 
 #imagen5 {
 
-    margin-top: 60px;
+    margin-top: 15px;
 
-    width: 500px;
+    width: 520px;
 
-    height: 460px;
+    height: 518px;
 
-    margin-left: 70px;
+    margin-left: 45px;
 
 
 }
@@ -165,7 +145,7 @@
 }
 
 .bajarForm {
-    margin-top: 160px;
+    margin-top: 120px;
 }
 
 
@@ -176,10 +156,25 @@
 }
 
 .bajarTexto {
-    margin-bottom: -200px;
+    margin-bottom: -150px;
 }
 
 
 #bajarPrimerTextoForm {
     margin-top: 60px;
+}
+
+#tarjetaSaludResponde {
+    margin-top: 20px;
+    
+}
+
+
+#botónEnviar {
+    margin-top: 25px;
+
+}
+
+.form-group {
+    margin-top: 10px;
 }
