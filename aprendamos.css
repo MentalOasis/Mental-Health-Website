@@ -1,7 +1,54 @@
 .fondo {
+
+
     background-color: rgba(239, 142, 250, 0.195); /* Azul violeta con 30% de opacidad */
+
+
 }
+
+
 CFE6DD
+
+
 .textodark {
+
+
     color: black;
+
+}
+
+
+
+
+.tarjetas {
+
+    margin-top: 50px;
+
+    margin-left: 40px;
+
+}
+
+
+.imagentarjeta {
+
+    padding-left: 30px;
+
+}
+
+
+
+
+.reproductormusica {
+
+    margin-top: 160px;
+
+    
+
+}
+
+
+.tarjeta2 {
+
+    margin-bottom: 70px;
+
 }
