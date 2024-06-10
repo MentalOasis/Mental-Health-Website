@@ -1,0 +1,63 @@
+.fondo {
+    background-color: rgba(175, 236, 118, 0.195); /* Azul violeta con 30% de opacidad */
+    background-image: url('./pic/verduritas.jpg');
+}
+
+.bordeverde {
+    border: 1px solid #aaebca;
+  }
+  
+.vidrio {
+    backdrop-filter: blur(10px); /* Aplica un filtro de desenfoque al fondo */
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semitransparente */
+}
+
+.tornasol {
+    position: relative;
+    overflow: hidden;
+}
+
+.tornasol::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #f00, #ff0, #0f0, #00f, #f00);
+    animation: tornasol-animation 5s linear infinite;
+    opacity: 0.6;
+}
+
+@keyframes tornasol-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.tornasol {
+    position: relative;
+    overflow: hidden;
+}
+
+.tornasol .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://cdn.jsdelivr.net/gh/Alok/Stars.css/stars.svg');
+    animation: stars-animation 30s linear infinite;
+}
+
+@keyframes stars-animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
