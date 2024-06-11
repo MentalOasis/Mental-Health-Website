@@ -12,7 +12,15 @@ import Footer from '/src/componentes/Footer.jsx'
 import Navbar from './componentes/Navbar';
 import  ImageAccordion  from './componentes/ImageAccordion.jsx';
 import EmojiRating from './componentes/EmojiRating.jsx';
-
+import Sidebar from './componentes/Sidebar.jsx'
+// sidebar
+import { Button, Layout, theme } from 'antd';
+import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
+import Logo from './componentes/Logo';
+import MenuList from './componentes/MenuList';
+import ToggleThemeButton from './componentes/ToggleThemeButton';
+import { MenuOutlined } from '@ant-design/icons';
+const { Header, Sider } = Layout;
 
 
 function App() {
@@ -20,12 +28,16 @@ function App() {
 
   return (
     <>
+    
       <Navbar/>
+      {/* <Sidebar/> */}
       <Botones/>
+      
       {/* <ImageAccordion/>  */}
       <Footer/>
 
     </>
+
   )
 }
 

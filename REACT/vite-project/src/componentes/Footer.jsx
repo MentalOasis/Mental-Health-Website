@@ -1,6 +1,7 @@
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import  mentaloasislogo from '/public/pic/mentaloasislogo.png';
+import './footer.css'
 
 
 

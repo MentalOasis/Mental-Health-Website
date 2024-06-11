@@ -1,4 +1,3 @@
-
 const Img = {
 
     image1 : new URL('./angry.png', import.meta.url).href,
@@ -19,4 +18,4 @@ const Img = {
     image16 : new URL('./tired.png', import.meta.url).href,
 }
 
-export default Img
+export default Img;

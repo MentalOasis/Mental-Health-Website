@@ -1,5 +1,6 @@
 
 import BtnIzquierda from "./BtnIzquierda";
+import Sidebar from "./Sidebar";
 import { hacerClick, hacerClick2 } from "/src/categoriasR.js";
 import './adminboton.css'
 
@@ -11,14 +12,19 @@ const temas = [
 
 const Botones = () => {
   return (
-    <div className="container-fluid" style={{ marginLeft: "30px" , marginBottom: "60px", marginTop: "50px"}}>
-      <div className="page-container ">
-        <div className="row">
+    <div className="container-fluid" style={{ marginBottom: "60px", marginLeft: "-12px"}}>
+      <div className="page-container " >
+        <div className="row" >
           <div className="col-md-1">
-            <BtnIzquierda />
+
+            {/* <BtnIzquierda /> */}
+            <div className= "altura">
+            <Sidebar/>
+            </div>
+
           </div>
           <div className="col text-start" style={{ marginLeft: "250px" }}>
-            <p className="text-right fs-2 fw-bolder">Temas</p>
+            <p className="text-right fs-2 fw-bolder" style={{ marginTop: "50px" }}>Temas</p>
             {temas.map((tema, index) => (
               <div key={index}>
                 <p className="fs-5 fw-bold mt-5 ">{tema.categoria}</p>

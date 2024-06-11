@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import Img from './emotions/Img.jsx';
 import './emoji.css';

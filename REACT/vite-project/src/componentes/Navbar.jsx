@@ -1,5 +1,6 @@
 import React from 'react';
 import mentaloasislogo from '/public/pic/mentaloasislogo.png';
+import '/src/NavBar.css'
 
 
 
