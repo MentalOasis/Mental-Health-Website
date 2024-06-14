@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aprendprueba.css">
+    <!-- Agrega la referencia a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="player__controls">
+                <!-- Agrega el espacio entre los iconos y el texto -->
+                <div class="player__btn player__btn--small">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <h5 class="player__title">Reproduce la canción</h5>
+                <div class="player__btn player__btn--small">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="player__album">
+                <img src="./pic/emocioneskawai.png" alt="album cover" class="player__img">
+            </div>
+
+            <h2 class="player__artist">Piano</h2>
+            <h3 class="player__song">Camila</h3>
+
+            <input type="range" value="20" min="0" class="player__level">
+
+            <div class="audio-duration">
+                <div class="start">00:01</div>
+                <div class="end">05:50</div>
+            </div>
+
+            <audio class="player__audio" controls id="audio">
+                <source src="./audio/classicalpiano.mp3" type="audio/mpeg">
+            </audio>
+
+            <div class="player__controls">
+                <div class="player__btn player__btn--medium">
+                    <i class="fas fa-backward"></i>
+                </div>
+
+                <div class="player__btn player__btn--medium blue" id="play">
+                    <!-- Añade una clase "play-btn" al icono de reproducción -->
+                    <i class="fas fa-play play-btn"></i>
+                    <!-- Añade una clase "pause-btn" al icono de pausa y ocúltalo inicialmente -->
+                    <i class="fas fa-pause pause-btn hide"></i>
+                </div>
+                
+                <div class="player__btn player__btn--medium">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
